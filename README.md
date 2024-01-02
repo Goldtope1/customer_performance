@@ -9,19 +9,25 @@ The marketing Department of Maverick Household supplies are looking to gain valu
 As a Data Analyst, I was tasked to analyze their customer performance data for the previous year and come up with insights that would shed more light on the customers profile breakdown.
 >
 I was asked to produced Metrics like Top Money Spenders, Percentage of customers with and without children, age brackek(group) of customers, Expenditure by Gender, customers profiling
-Skills and concept demonstration
+>
+### Skills and concept demonstration
+
 Data cleaning, powerQuery Functions, Data Transformation, Data Modeling Data analysis & visualization
-Data Cleansing and Transformation
+#### Data Cleansing and Transformation
+
 The Dataset was loaded to power-query and the following activities took place
-•	The tables were properly named to ensure easy identification.
-•	Wrong Data types were corrected
-•	All Typo Errors were corrected 
-•	Columns that were not necessary to the analysis were removed
+- The tables were properly named to ensure easy identification.
+- Wrong Data types were corrected
+- All Typo Errors were corrected
+- Columns that were not necessary to the analysis were removed
+>
 The customer performance dataset contains 5 tables which include DImSaleTerritory, DimProduct, DimGeography, DimCustomer and SalesFacttable
-Data Modeling
+#### Data Modeling
+
 The Data Model follows the usual Star Schema. All Dimensional table were connected to the Salesfact table, creating a one to many relationship between the Dimension table and the fact table.
-Lots of DAX measures were created such as the % of customers with children, % of customer without children, Average Customer Age, 
-The Data Modeling was done to connect related tables together. Since the tables have been grouped into fact tables and dimension table connecting them together wasn’t much of a hassle. Several measures were created for the Analysis using DAX. There are three facts table and five Dimensional tables with the five dimensional tables connecting to the three facts tables and none of the facts table connecting to other i.e. it is a star-schema and no many-to-many relationships
+Several of DAX measures were created such as the % of customers with children, % of customer without children, Average Customer Age, 
+The Data Modeling was done to connect related tables together.
+>
 Data Visualization and Insights
 •	The three dominant purchasing Age-groups 31-40, 41-50, 51-60 these Age groups contribute 74% of the Total Revenue
 •	The female gender slightly edges the male gender on  Expenditure, with the female contributing 50.30% while the male contributed 49.70%
