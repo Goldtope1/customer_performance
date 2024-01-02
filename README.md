@@ -38,5 +38,6 @@ The Data Modeling was done to connect related tables together.
 >
 ### Recommendation
 >
+>![](customer_performance_report5.PNG)
 The loyal customers contributed $270m which represents about 80% of the total revenue. Efforts must continue to be made to convert new customers to loyal customers
-![](customer_performance_report5.PNG)
+
